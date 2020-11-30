@@ -8,6 +8,7 @@ function DadosEntrega() {
         id="cep"
         label="CEP"
         type="number"
+        required
         variant="outlined"
         margin="normal"
       />
@@ -15,6 +16,7 @@ function DadosEntrega() {
         id="endereco"
         label="Endereço"
         type="text"
+        required
         variant="outlined"
         margin="normal"
         fullWidth
@@ -22,6 +24,7 @@ function DadosEntrega() {
          <TextField
         id="numero "
         label="Número"
+        required
         type="number"
         variant="outlined"
         margin="normal"
@@ -29,6 +32,7 @@ function DadosEntrega() {
          <TextField
         id="estado"
         label="Estado"
+        required
         type="text"
         variant="outlined"
         margin="normal"
@@ -36,6 +40,7 @@ function DadosEntrega() {
          <TextField
         id="cidade"
         label="Cidade"
+        required
         type="text"
         variant="outlined"
         margin="normal"
